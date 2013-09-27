@@ -1,0 +1,125 @@
+<style>
+	/* --------------------------------------------------------------------------------------------------------- */
+	/* UPLOADSUITE STYLES -------------------------------------------------------------------------------------- */
+	/* --------------------------------------------------------------------------------------------------------- */
+	.upload-suite-container {
+		display: inline-block;
+		border: 1px solid #c4c4c4;
+		background: #fff;
+		-webkit-border-radius: 6px;
+		   -moz-border-radius: 6px;
+				border-radius: 6px;
+	}
+	.form-elements-container {
+		display: inline-block;
+		padding: 10px;
+	}
+	.form-elements-container label {
+		font-weight: bold;
+	}
+	.form-elements-container input[type="file"] {
+		width: 95%;
+		margin: 0 0 10px 0;
+		padding: 5px 5px;
+		min-height: 20px;
+		border: 1px solid #c4c4c4;
+		-webkit-border-radius: 6px;
+		   -moz-border-radius: 6px;
+				border-radius: 6px;
+		-webkit-box-sizing: content-box;
+		   -moz-box-sizing: content-box;
+				box-sizing: content-box;
+	}
+	.form-elements-container input[type="button"] {
+		float: right;
+	}
+	.file-info-container {
+		display: none;
+		background: #efefef;
+		padding: 10px 10px;
+		border-top: 1px solid #c4c4c4;
+	}
+	.progress-container {
+		display: none;
+		padding: 10px;
+		border-top: 1px solid #c4c4c4;
+	}
+	.progress-bar {
+		float: left;
+		width: 75%;
+		height: 20px;
+		margin-bottom: 10px;
+		border: 1px solid #c4c4c4;
+		background: #efefef;
+		-webkit-border-radius: 6px;
+		   -moz-border-radius: 6px;
+				border-radius: 6px;
+	}
+	.progress-indicator {
+		display: block;
+		width: 0;
+		height: 20px;
+		background-color: #3a87ad;
+		-webkit-border-radius: 5px;
+		   -moz-border-radius: 5px;
+				border-radius: 5px;
+		-webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+		   -moz-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+				box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+	}
+	.progress-number {
+		float: right;
+		width:34px;
+		font-size: 12px;
+		text-align: left;
+		margin-top: 2px;
+	}
+	.upload-suite-success {
+		display: inline-block;
+		text-align: center;
+		white-space: nowrap;
+		margin-top: 10px;
+		font-size: 12px;
+		font-weight: bold;
+		font-style: normal;
+		color: #000;
+		width: 20px;
+		height: 20px;
+		background: #03c400;
+		box-shadow: 0 1px 1px #999;
+		text-shadow: 0 0 1px #999;
+		-webkit-border-radius: 10px;
+		   -moz-border-radius: 10px;
+				border-radius: 10px;
+	}
+	.upload-suite-success:before {
+		content:"\2713\0020";
+		color: white;
+		font-size: 14px;
+		padding:0 7px 0 5px;
+	}
+	.upload-suite-error {
+		display: inline-block;
+		text-align: center;
+		white-space: nowrap;
+		margin-top: 10px;
+		color: red;
+		font-size: 12px;
+		font-weight: bold;
+		font-style: normal;
+		color: #000;
+		width: 20px;
+		height: 20px;
+		background: #E51937;
+		box-shadow: 0 1px 1px #999;
+		text-shadow: 0 0 1px #999;
+		-webkit-border-radius: 10px;
+		   -moz-border-radius: 10px;
+				border-radius: 10px;
+	}
+	.upload-suite-error:before {
+		content:"x";
+		color: white;
+		padding:0 10px 0 7px;
+	}
+</style>
