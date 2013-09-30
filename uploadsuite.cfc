@@ -83,7 +83,7 @@
 		 * @hint Drag & Drop File
 		 * ---------------------------------------------------------------------------------------------------
 		*/
-		public function fileUploadTag(
+		public function ajaxFileUploadTag(
 			string uuid="#GetTickCount()#",
 			string route="",
 			string controller="",
