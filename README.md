@@ -18,6 +18,7 @@ Problems or issues with this plugin can be found at https://github.com/ellor1138
 
 ## Requirements
 ##### I have tested this plugin with the following CFWheels frameworks:
+* ColdFusion on Wheels 1.3
 * ColdFusion on Wheels 1.1.8
 
 ##### I have tested this plugin on the following CFML engines:
@@ -28,7 +29,7 @@ Problems or issues with this plugin can be found at https://github.com/ellor1138
 2. Reload your application.
 
 ## License
-Copyright 2013 Simon Allard
+Copyright 2014 Simon Allard
 				
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
