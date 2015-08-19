@@ -25,7 +25,7 @@
 		public function init() {
 			var loc = {};
 
-			this.version = "1.1.8,1.3";
+			this.version = "1.1.8,1.3,1.3.1,1.3.2";
 
 			application.uploadsuite = {};
 			application.uploadsuite = $initUploadSuitePluginSettings();
