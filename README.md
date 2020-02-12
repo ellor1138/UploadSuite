@@ -4,14 +4,8 @@
 
 UploadSuite is a HTML 5 upload plugin for ColdFusion on Wheels. This plugin offer a complete solution to add HTML 5 upload capability to your application.
 
-#### Benefits of using this plugin:
-* To come...
-
 ## The Latest Version
 * The latest version of this plugin can be found at the Github project page at https://github.com/ellor1138/UploadSuite
-
-## Documentation
-Documentation for this project can be found at https://github.com/ellor1138/UploadSuite/wiki
 
 ## Issues
 Problems or issues with this plugin can be found at https://github.com/ellor1138/UploadSuite/issues
